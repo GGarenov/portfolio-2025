@@ -1,13 +1,12 @@
-// src/data/projectData.js
 export const projectData = [
   {
-    title: "Portfolio Website",
+    title: "Sunglasses Ecommerce Website",
     description:
-      "A personal portfolio site to showcase my projects and skills, built with React and Tailwind CSS.",
-    tech: ["React", "Tailwind CSS", "Vite"],
-    image: "/project1.jpg",
-    liveDemo: "https://your-portfolio-demo.com",
-    github: "https://github.com/yourusername/portfolio-website",
+      "A full-stack e-commerce application built with React and Node.js, featuring both shopping and admin interfaces.",
+    tech: ["React", "Tailwind CSS", "Vite", "Node JS", "Express", "Mongo DB"],
+    image: "/assets/images/project1.png",
+    liveDemo: "https://sunglasses-ecommerce-app.vercel.app/",
+    github: "https://github.com/GGarenov/ecommerce-app",
   },
   {
     title: "Task Manager App",
