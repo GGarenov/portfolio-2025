@@ -9,21 +9,48 @@ export const projectData = [
     github: "https://github.com/GGarenov/ecommerce-app",
   },
   {
-    title: "Task Manager App",
+    title: "Real Estate Marketplace",
     description:
-      "A simple and intuitive task manager with drag-and-drop, built for productivity.",
-    tech: ["React", "Redux", "Framer Motion"],
-    image: "/project2.jpg",
-    liveDemo: "https://your-taskmanager-demo.com",
-    github: "https://github.com/yourusername/task-manager-app",
+      "A real estate marketplace built with the MERN stack. Users can browse, filter, and create property listings for rent or sale. Registered users can manage their profiles and listings, including profile pictures and property details.",
+    tech: [
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "Node JS",
+      "Express",
+      "Firebase",
+      "Render",
+    ],
+    image: "/assets/images/project2.png",
+    liveDemo: "https://real-estate-app-mern-qxrr.onrender.com/",
+    github: "https://github.com/GGarenov/real-estate-app",
   },
   {
-    title: "Weather Dashboard",
+    title: "Angular Blog + Admin Panel",
     description:
-      "A responsive weather dashboard that fetches real-time data from a public API.",
-    tech: ["React", "API", "CSS Grid"],
-    image: "/project3.jpg",
-    liveDemo: "https://your-weather-demo.com",
-    github: "https://github.com/yourusername/weather-dashboard",
+      "This is a simple blog page with admin panel for the CRUD operations written on Angular and Firebase",
+    tech: ["Angular", "Firebase"],
+    image: "/assets/images/project3.png",
+    liveDemo: "https://angular-blog-ab62c.web.app/",
+    github: "https://github.com/GGarenov/angular-blog-app",
+  },
+  {
+    title: "Personal Portfolio 2024",
+    description:
+      "A personal portfolio website built with React and Bootstrap, featuring integrated EmailJS for contact functionality. Deployed on GitHub Pages.",
+    tech: ["React", "Bootstrap", "EmailJS", "GitHub Pages"],
+    image: "/assets/images/project4.png",
+    liveDemo: "https://ggarenov.github.io/portfolio-website/",
+    github: "https://github.com/GGarenov/portfolio-website",
+  },
+
+  {
+    title: "Tetris Game",
+    description:
+      "Simple tetris game build with React but also demonstrated my pure javascript skills",
+    tech: ["React", "Vite", "Tailwind"],
+    image: "/assets/images/project5.png",
+    liveDemo: "https://ggarenov.github.io/tetris_game/",
+    github: "https://github.com/GGarenov/tetris_game/",
   },
 ];

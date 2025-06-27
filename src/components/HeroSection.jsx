@@ -11,7 +11,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center min-h-[70vh] text-center px-4 py-8 bg-gray-900">
+    <section
+      id="hero"
+      className="flex flex-col items-center justify-center min-h-[70vh] text-center px-4 py-8 bg-gray-900"
+    >
       <img
         src={developerPhoto}
         alt="Developer portrait"

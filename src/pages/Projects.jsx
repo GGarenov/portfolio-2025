@@ -4,7 +4,10 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-12 bg-gray-900 text-gray-100 font-sans min-h-[70vh]">
+    <section
+      id="projects"
+      className="py-16 px-4 md:px-8 lg:px-12 bg-gray-900 text-gray-100 font-sans min-h-[70vh]"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-10 text-teal-400">
           Projects

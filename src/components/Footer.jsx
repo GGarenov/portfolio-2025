@@ -2,13 +2,14 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-4 mt-8">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
-        <span className="text-sm">
-          &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
+      <div className="w-full flex flex-col items-center justify-center px-4 gap-2">
+        <span className="text-sm text-center">
+          &copy; {new Date().getFullYear()} Georgi Garenove Codes. All rights
+          reserved.
         </span>
-        <div className="flex space-x-4 mt-2 md:mt-0">
+        <div className="flex space-x-4 mt-2">
           <a
-            href="https://github.com/"
+            href="https://github.com/GGarenov"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -19,7 +20,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ggarenov/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
