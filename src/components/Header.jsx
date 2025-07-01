@@ -16,14 +16,7 @@ const Header = () => {
               Home
             </a>
           </li>
-          <li>
-            <a
-              href="#about"
-              className="text-gray-100 hover:text-teal-400 transition-colors font-medium"
-            >
-              About
-            </a>
-          </li>
+
           <li>
             <a
               href="#projects"
@@ -38,6 +31,14 @@ const Header = () => {
               className="text-gray-100 hover:text-teal-400 transition-colors font-medium"
             >
               Skills
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about"
+              className="text-gray-100 hover:text-teal-400 transition-colors font-medium"
+            >
+              About
             </a>
           </li>
           <li>
