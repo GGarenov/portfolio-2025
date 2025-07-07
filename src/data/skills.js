@@ -1,4 +1,3 @@
-// src/data/skills.js
 import {
   FaJs,
   FaHtml5,
@@ -64,7 +63,7 @@ export const skillsData = [
     items: [
       { name: "Firebase", icon: SiFirebase },
       { name: "Google OAuth", icon: SiGoogleauthenticator },
-      { name: "Email JS", icon: SiOpenai }, // Closest generic icon for EmailJS
+      { name: "Email JS", icon: SiOpenai },
       { name: "Postman", icon: SiPostman },
     ],
   },
@@ -82,8 +81,8 @@ export const skillsData = [
     items: [
       { name: "GitHub Copilot", icon: SiGithubcopilot },
       { name: "ChatGPT", icon: SiOpenai },
-      { name: "Notebook LM", icon: SiNotion }, // Using Notion icon as a placeholder
-      { name: "Claude", icon: RiClaudeFill }, // Using Notion icon as a placeholder
+      { name: "Notebook LM", icon: SiNotion },
+      { name: "Claude", icon: RiClaudeFill },
     ],
   },
 ];

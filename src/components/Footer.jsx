@@ -4,7 +4,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-4 mt-8">
       <div className="w-full flex flex-col items-center justify-center px-4 gap-2">
         <span className="text-sm text-center">
-          &copy; {new Date().getFullYear()} Georgi Garenove Codes. All rights
+          &copy; {new Date().getFullYear()} Georgi Garenov Codes. All rights
           reserved.
         </span>
         <div className="flex space-x-4 mt-2">
